@@ -1,0 +1,53 @@
+QUESTION 1: 
+
+Given the following dataset:
+
+a = np.random.normal(loc=64, scale=2, size=500)
+b = np.random.normal(loc=70, scale=2, size=100)
+
+Write the appropriate to display multiple histogram on the same axis. The plots for both datasets show be fully
+visible.
+[Hint: Use the 'alpha' argument]
+
+Import the data provided into your python environment and use it to answer the questions that follow.
+
+QUESTION 2:
+Using matplotlib module, make a lineplot of 'age' on the x-axis against 'children' on the y-axis using 
+the following labels for your plot:
+x-axis: 'Age (years)'
+y-axis: 'Number of children'
+plot title: 'Plot of Age against children'.
+
+QUESTION 3:
+How would you use matplotlib module to make two different subplots on different axes with the following 
+characteristics?
+
+a) First subplot: 
+i. pie chart using the 'sex' column. Ensure the percentage on the pie chart is taken to 2 d.p.
+
+b) Second subplot:
+i. Create a bar-chart with the 'region' column. 
+ii. Carefully label the chart with x-axis: 'Region'; y-axis: 'Counts'; title: 'Bar plot for Region'.
+
+QUESTION 4:
+Using matplotlib, plot two histograms on the same axis for columns 'age' and 'children'. Ensure the following
+is indicated in the plot:
+1. The two plots should be clearly visible to the eye [Hint: Use the 'alpha' argument]
+ii. Use appropriate titles for the axes and the plot
+
+QUESTION 5:
+
+Using the dataset given below,
+
+x_var = np.random.normal(loc = 40, scale = 1.5, size = 200)
+y_var = np.random.normal(loc = 50, scale = 1.5, size = 300) 
+z_var = np.random.normal(loc = 60, scale = 2, size = 300)
+
+i. Create histograms for the two variables,x_var and y_var, on the same axis. Ensure the two plots can easily 
+be see using the appropriate parameter. Also, use the legend() function for the plot.
+
+ii. Make two subplots using the 3 variables as follows:
+
+1. Make a lineplot of y_var against z_var for the first subplot
+2. Make a histogram for the second subplot using x_var.
+[Hint: All plots should be well labeled] 
